@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.todo-container {
+    margin: 20px auto;
+    width: 400px; /* Aumentar el ancho del contenedor */
+    text-align: left;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px; /* Aumentar el espacio interno */
+    font-size: 18px; /* Aumentar el tamaño de fuente */
+    margin-bottom: 15px; /* Aumentar el espacio entre el input y la lista de preguntas */
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Eliminar el margen predeterminado */
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.delete {
+    color: red;
+    cursor: pointer;
+}
